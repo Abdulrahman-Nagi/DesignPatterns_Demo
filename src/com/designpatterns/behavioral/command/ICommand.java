@@ -1,0 +1,9 @@
+package com.designpatterns.behavioral.command;
+
+public interface ICommand {
+
+    void execute();
+
+    void unExecute();
+
+}
